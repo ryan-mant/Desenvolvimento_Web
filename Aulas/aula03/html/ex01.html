@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var nomeDaEmpresa = prompt("Digite o nome da empresa")
+    var CNPJdaEmpresa = Number.parseInt(prompt("Digite o CNPJ da empresa"))
+    var TipoDaEmpresa = prompt("Digite o tipo da Empresa")
+    var quantidadeFuncionarios = Number.parseInt(prompt("Quantos funcionarios essa empresa possui?"))
+    var lista = []
+
+    var empresa = {
+        nome: nomeDaEmpresa,
+        CNPJ: CNPJdaEmpresa,
+        Tipo: TipoDaEmpresa,
+        funcionarios: quantidadeFuncionarios,
+
+    }
+
+    lista.push(empresa)
+    document.writeln("Nome da Empresa: ", lista[0].nome,)
+    document.writeln("CNPJ: ", lista[0].CNPJ)
+    document.writeln("Tipo da Empresa: ", lista[0].Tipo)
+    document.writeln("Numero de Funcionarios: ", lista[0].quantidadeFuncionarios)
+
+
+
+</script>
+</html>
