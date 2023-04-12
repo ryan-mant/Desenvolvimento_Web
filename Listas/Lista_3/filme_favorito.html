@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var nomeFilme = prompt("Digite o nome do filme favorito:")
+    var anoLancamento = prompt("Digite o ano que esse filme foi lançado:")
+    var nomeProtagonista = prompt("Digite o nome do protagonista:")
+
+    var filme = {
+        nome: nomeFilme,
+        lancamento: anoLancamento,
+        protagonista: nomeProtagonista
+    }
+    var database = [filme]
+    document.writeln("Nome do Filme: ", database[0].nome,"<br>")
+    document.writeln("Lançamento: ", database[0].lancamento,"<br>")
+    document.writeln("Protagonista: ", database[0].protagonista,"<br>")
+</script>
+</html>
