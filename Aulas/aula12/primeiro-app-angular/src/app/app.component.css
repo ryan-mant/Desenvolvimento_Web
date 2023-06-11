@@ -1,0 +1,18 @@
+.animais{
+    border: 2px solid black;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    background-color: aquamarine;
+    max-width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.animais:hover{
+    max-width: 300px;
+    
+}
+.animais p{
+    color: black;
+}
